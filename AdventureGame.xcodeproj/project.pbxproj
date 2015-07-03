@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BD20BB491B44720D00DB7FCD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = BD20BB481B44720D00DB7FCD /* main.c */; };
+		BD20BC251B473EDC00DB7FCD /* PathSegment.c in Sources */ = {isa = PBXBuildFile; fileRef = BD20BC231B473EDC00DB7FCD /* PathSegment.c */; };
+		BD20BC281B473EEE00DB7FCD /* Player.c in Sources */ = {isa = PBXBuildFile; fileRef = BD20BC261B473EEE00DB7FCD /* Player.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		BD20BB451B44720D00DB7FCD /* AdventureGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdventureGame; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD20BB481B44720D00DB7FCD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		BD20BC231B473EDC00DB7FCD /* PathSegment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PathSegment.c; sourceTree = "<group>"; };
+		BD20BC241B473EDC00DB7FCD /* PathSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathSegment.h; sourceTree = "<group>"; };
+		BD20BC261B473EEE00DB7FCD /* Player.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Player.c; sourceTree = "<group>"; };
+		BD20BC271B473EEE00DB7FCD /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				BD20BB481B44720D00DB7FCD /* main.c */,
+				BD20BC261B473EEE00DB7FCD /* Player.c */,
+				BD20BC271B473EEE00DB7FCD /* Player.h */,
+				BD20BC231B473EDC00DB7FCD /* PathSegment.c */,
+				BD20BC241B473EDC00DB7FCD /* PathSegment.h */,
 			);
 			path = AdventureGame;
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD20BC251B473EDC00DB7FCD /* PathSegment.c in Sources */,
 				BD20BB491B44720D00DB7FCD /* main.c in Sources */,
+				BD20BC281B473EEE00DB7FCD /* Player.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +247,7 @@
 				BD20BB4E1B44720D00DB7FCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
